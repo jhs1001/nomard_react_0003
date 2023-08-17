@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <span>Total click: 0</span>
+        <button id="btn">Click me!</button>
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </body>
+    <script>
+        const button = document.getElementById("btn");
+        button.addEventListener("click", handleClick);
+        function handleClick() {
+            console.log("i have been clicked");
+        }
+    </script>
+</html>
